@@ -12,13 +12,14 @@ export default function NavBar()
                 <Menu.Item as={NavLink} to='/' exact header>
 
                     <img src ="/assets/logo.png" alt="logo" style={{marginRight: '10px'}}></img>
-                    Reactivities
+                    Events
 
                 </Menu.Item>
-                <Menu.Item as={NavLink} to='/activities'  name="Activities"/>
+                <Menu.Item as={NavLink} to='/activities'  name="Events"/>
+                <Menu.Item as={NavLink} to='/errors'  name="Errors"/>
                 <Menu.Item >
 
-                    <Button as={NavLink} to='/createActivity'  positive content="Create Activity"></Button>
+                    <Button as={NavLink} to='/createActivity'  positive content="Create Event"></Button>
 
                 </Menu.Item>
 

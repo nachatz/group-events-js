@@ -10,11 +10,11 @@ export default function HomePage()
             <Container text>
                 <Header as='h1' inverted>
                     <Image size='massive' src='/assets/logo.png' alt='logo' style={{marginBotton: 12}}/>
-                    Reactivities
+                    Events
                 </Header>
                 <Header as='h2' inverted content='Welcome' />
                 <Button as={Link} to='/activities' size='huge' inverted>
-                    Activities
+                    View Events
                 </Button>
             </Container>
         </Segment>
