@@ -11,9 +11,11 @@ export default function NotFound()
             <Header icon>
                 <Icon name ='search' />
                 Not a valid page! Uh-oh!
+
             </Header>
             <Segment.Inline>
                 <Button as={Link} to={'/activities'} primary>Return to Events</Button>
+                <Button as={Link} to={'/'} primary>Home Page</Button>
             </Segment.Inline>
         </Segment>
 
