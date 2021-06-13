@@ -12,6 +12,7 @@ namespace Persistence.Migrations
     [Migration("20210527014731_InitialCreate")]
     partial class InitialCreate
     {
+        
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
